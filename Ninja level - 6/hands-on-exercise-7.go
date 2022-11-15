@@ -14,3 +14,7 @@ func foo() func() int {
 		return 21
 	}
 }
+
+// ● Create a func which returns a func
+// ● assign the returned func to a variable
+// ● call the returned func
