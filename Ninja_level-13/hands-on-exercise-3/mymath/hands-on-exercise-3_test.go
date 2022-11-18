@@ -12,9 +12,9 @@ func TestingCentered(t *testing.T) {
 	}
 
 	a := []qna{
-		qna{[]int{3, 7, 8, 1, 2}, 4.2},
-		qna{[]int{7, 1, 9, 2, 10}, 5.8},
-		qna{[]int{5, 10, 11, 12, 19}, 11.4},
+		qna{[]int{3, 7, 8, 1, 2}, 4},
+		qna{[]int{7, 1, 9, 2, 10}, 6},
+		qna{[]int{5, 10, 11, 12, 19}, 11},
 	}
 
 	for _, v := range a {
